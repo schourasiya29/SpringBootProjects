@@ -1,0 +1,19 @@
+package com.sac.practice.EmpPojo;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Entity
+@Table(name="Employee")
+@Data
+public class EmpPojo {
+
+	private int empId;
+	private String firstName;
+	private String lastName;
+	private double salary;
+	private String department;
+	
+}

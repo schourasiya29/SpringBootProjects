@@ -1,0 +1,5 @@
+package com.sac.practice.EmpService;
+
+public class EmpServiceImpl implements EmpService{
+
+}

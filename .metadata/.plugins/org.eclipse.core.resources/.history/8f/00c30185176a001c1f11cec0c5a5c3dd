@@ -1,0 +1,24 @@
+package com.sac.practice.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.sac.practice.entity.EmpPojo;
+import com.sac.practice.repository.EmpRepository;
+
+@Service
+public class EmpServiceImpl implements EmpService{
+
+	@Autowired
+	EmpRepository empRepository;
+	
+	public List<EmpPojo> getAllEmployees() {
+		
+		System.out.println("Printing all employees");
+		return empRepository.findAll();
+		
+	}
+
+}

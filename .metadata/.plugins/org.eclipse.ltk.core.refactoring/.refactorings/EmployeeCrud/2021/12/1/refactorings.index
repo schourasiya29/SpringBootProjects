@@ -1,0 +1,11 @@
+1640699325709	Delete element
+1640700383743	Delete element
+1640933861595	Rename package 'com.sac.practice.EmpController'
+1640933885971	Rename package 'com.sac.practice.EmpPojo'
+1640933901938	Rename package 'com.sac.practice.EmpService'
+1640933911696	Rename package 'com.sac.practice.EmpRepository'
+1640937525154	Rename package 'com.sac.practice.Controller'
+1640937535308	Rename package 'com.sac.practice.Entity'
+1640937543456	Rename package 'com.sac.practice.Repository'
+1640937550819	Rename package 'com.sac.practice.Service'
+1640941643809	Rename type 'EmpPojo'

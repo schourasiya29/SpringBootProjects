@@ -1,0 +1,10 @@
+package com.sac.practice.EmpPojo;
+
+public class EmpPojo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,6 @@
+com\sac\practice\entity\Employee.class
+com\sac\practice\controller\EmpController.class
+com\sac\practice\service\EmpService.class
+com\sac\practice\repository\EmpRepository.class
+com\sac\practice\service\EmpServiceImpl.class
+com\sac\practice\EmployeeCrudApplication.class

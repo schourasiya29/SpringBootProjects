@@ -1,0 +1,16 @@
+package com.sac.practice.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.sac.practice.entity.EmpPojo;
+
+
+public interface EmpService {
+	
+	public List<EmpPojo> getAllEmployees();
+
+	public EmpPojo addEmployee(EmpPojo empPojo);
+
+}

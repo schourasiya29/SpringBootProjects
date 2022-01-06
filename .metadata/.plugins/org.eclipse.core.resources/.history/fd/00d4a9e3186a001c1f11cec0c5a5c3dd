@@ -1,0 +1,40 @@
+package com.sac.practice.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.sac.practice.EmployeeCrudApplication;
+import com.sac.practice.entity.EmpPojo;
+import com.sac.practice.service.EmpService;
+import com.sac.practice.service.EmpServiceImpl;
+
+@RestController
+@RequestMapping("/Emp")
+public class EmpController {
+
+	@Autowired
+	private EmpService empService;
+
+	@GetMapping
+	public ResponseEntity<List<EmpPojo>> getAllEmployees() {
+		List<EmpPojo> empList = empServiceImpl.getAllEmployees();
+		return new ResponseEntity<EmpPojo>(empList, HttpStatus.OK);
+	}
+	
+	@PostMapping("/add")
+	public ResponseEntity<EmpPojo> addEmployee(@RequestBody EmpPojo empPojo){
+		EmpPojo empObj =empService.addEmployee(empPojo);
+		return new ResponseEntity<EmpPojo>;
+		
+	}
+
+}
