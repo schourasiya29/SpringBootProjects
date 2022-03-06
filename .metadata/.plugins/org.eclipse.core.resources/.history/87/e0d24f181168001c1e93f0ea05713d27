@@ -1,6 +1,0 @@
-package com.sac.practice.EmpService;
-
-@Service
-public class EmpService {
-
-}

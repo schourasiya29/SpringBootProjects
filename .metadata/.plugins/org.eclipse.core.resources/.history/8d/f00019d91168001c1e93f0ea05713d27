@@ -1,8 +1,0 @@
-package com.sac.practice.EmpRepository;
-
-import org.springframework.stereotype.Repository;
-
-@Repository
-public class EmpRepository {
-
-}
